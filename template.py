@@ -12,10 +12,11 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 project_name = 'cnnClassifier'
 
+
 list_of_files = [
     ".github/workflows/.gitkeep", #File to keep as a placeholder, if no file is to be uploaded
     f"src/{project_name}/components/__init__.py", #Used Source (src) file path, so that whenever we need to add any file to a particular folder inside the source project, it can be done easily, directing via 'src'
-    f"src/{project_name}/utils/__init__.py",
+    f"src/{project_name}/utils/__init__.py", #__init__ is installed as a contructor file inside every folder
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuratuion.py",
     f"src/{project_name}/pipeline/__init__.py",

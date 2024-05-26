@@ -1,3 +1,12 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/JayDS22/ Kidney-Disease-Classification-Deep-Learning-Project
+Author: JayDS22
+Author-email: guwalanijj@gmail.om
+Project-URL: Bug Tracker, https://github.com/JayDS22/ Kidney-Disease-Classification-Deep-Learning-Project/issues
+
 # Kidney-Disease-Classification-Deep-Learning-Project
 ML Modelling and MLOps deployment
 

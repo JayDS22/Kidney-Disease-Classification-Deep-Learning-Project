@@ -1,0 +1,19 @@
+tensorflow==2.12.0 
+pandas
+dvc #Data version Control
+mlflow==2.2.2 #ML Flow maintanence
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyYAML #To read data from ML files via Python
+tqdm
+ensure==1.0.2
+joblib
+types-pyYAML
+scipy
+Flask
+Flask-Cors
+gdown #To read data from Google drive
+-e. #To go to each folder, and install its local required packages (by referring to the contructor file (__init__.py), each time a new pacakage is imported, it is helpful for a particular folder to download it and meet the requirements
