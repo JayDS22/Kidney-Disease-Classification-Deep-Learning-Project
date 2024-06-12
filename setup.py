@@ -29,3 +29,6 @@ setuptools.setup(
     packages= setuptools.find_packages(where="src")
 )
 
+# Create Virtual Environment
+#- conda create -n cnn python=3.8 -y
+#- conda activate cnn
