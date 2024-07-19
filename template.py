@@ -35,7 +35,7 @@ list_of_files = [
 
 # FOR Loop Code to create the list of files
 for filepath in list_of_files: #Using for loop to scan through each file in the list
-    filepath = Path(filepath)
+    filepath = Path(filepath) #Using Path(), as Windows OS doesn't deal with 'Forward Slash' So make code robust and run it in every system
     filedir, filename = os.path.split(filepath) #To split the folder name and file name from the path
 
     if filedir != "":
